@@ -2,7 +2,7 @@
 import './App.css'
 import FeedbackModal from './components/FeedbackModal'
 
-function App() {
+function App() {          //npm run dev to start the development server
 
   const [isModalOpen, setIsModalOpen] = useState(false)  //use state initially closed default
 
